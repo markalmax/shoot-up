@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://l0vfwnhx8cu"]
 
 [ext_resource type="Texture2D" uid="uid://ciqudpejdmisx" path="res://Sprites/icon.svg" id="1_um8lo"]
+[ext_resource type="Script" uid="uid://dfr7f05jj01e5" path="res://Prefabs/Player.cs" id="1_x3d5u"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_p88cv"]
 size = Vector2(128, 128)
 
 [node name="RigidBody2D" type="RigidBody2D" unique_id=1493062385]
+script = ExtResource("1_x3d5u")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1005361318]
 shape = SubResource("RectangleShape2D_p88cv")
