@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="shoot-up"
+run/main_scene="uid://c140mth7a8tfe"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://Sprites/icon.svg"
 
 [display]
 

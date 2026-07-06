@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c140mth7a8tfe"]
+
+[ext_resource type="PackedScene" uid="uid://c61n71m3nqhil" path="res://Prefabs/Platform.tscn" id="1_7yn8b"]
+[ext_resource type="PackedScene" uid="uid://l0vfwnhx8cu" path="res://Prefabs/Player.tscn" id="2_etk83"]
+
+[node name="Node2D" type="Node2D" unique_id=1988707313]
+
+[node name="StaticBody2D" parent="." unique_id=607213774 instance=ExtResource("1_7yn8b")]
+position = Vector2(0, 100)
+
+[node name="RigidBody2D" parent="." unique_id=1493062385 instance=ExtResource("2_etk83")]
+position = Vector2(0, -100)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1005857955]
